@@ -41,11 +41,6 @@ To understand the security risks posed by browser extensions, learn how to evalu
 
 ---
 
-## 📸 Screenshots
-*(Add a folder with screenshots of your extension reviews and removals here.)*
-
----
-
 ## ✅ How to View
 1. Clone this repository:
    ```bash
