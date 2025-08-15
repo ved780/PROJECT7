@@ -1,0 +1,53 @@
+Browser Extension Security Report
+
+Internship Task: 7 – Identify and Remove Suspicious Browser Extensions
+Intern Name: Ved Vyas
+Date: 14/08/2025
+
+1. Introduction
+The purpose of this task was to review browser extensions, evaluate their permissions, and remove those that could pose security risks. Since my browser initially had no installed extensions, I installed both useful and potentially harmful extensions to analyze their behavior and security implications.
+
+2. Methodology
+1. Checked the Extensions / Add-ons Manager – confirmed no extensions were initially installed.
+2. Installed a few known useful extensions (e.g., password manager, ad blocker) and potentially suspicious extensions from official and third-party sources for testing purposes.
+3. For each extension, reviewed:
+   - Permissions requested
+   - Reviews and ratings from the store
+   - Last update date
+4. Identified red flags such as:
+   - Overly broad permissions without a clear purpose
+   - Poor ratings or security complaints
+   - Unknown developers or unverified sources
+5. Removed harmful or unnecessary extensions after testing.
+6. Restarted browser to observe performance improvements.
+
+3. Findings
+
+Extension Name       | Purpose         | Permissions Requested                      | Risk Level | Action Taken
+---------------------------------------------------------------------------------------------------------------
+uBlock Origin        | Ad blocker     | Access to all websites (content filtering)  | Low        | Kept
+LastPass             | Password manager | Access to saved passwords, autofill forms | Low        | Kept
+Free VPN Unlimited   | VPN service    | Read/change all data on websites, track usage | High     | Removed
+Shopping Saver Pro   | Price tracker  | Modify data on visited websites, inject ads | High     | Removed
+Dark Reader          | Dark mode      | Change website appearance                   | Low        | Kept
+
+4. Observations
+- Even extensions from official stores can request high-risk permissions.
+- Some “free” tools like VPNs and coupon finders monetize by selling browsing data.
+- Useful extensions like ad blockers and dark mode can improve privacy and comfort without major security risks, provided they’re from trusted developers.
+
+5. Security Risks of Malicious Extensions
+- Stealing personal data such as login credentials and browsing history.
+- Injecting ads or malicious code into legitimate websites.
+- Redirecting users to phishing or scam sites.
+- Tracking online activity for targeted advertising or malicious intent.
+
+6. Best Practices for Safe Extension Management
+- Only install from verified, official extension marketplaces.
+- Review requested permissions before installing.
+- Keep extensions updated.
+- Regularly review and remove unused ones.
+- Research any extension before installing it, especially if it’s from an unfamiliar developer.
+
+7. Conclusion
+By testing both useful and suspicious extensions, I gained a clear understanding of how permissions, update frequency, and developer reputation affect security. The process highlighted the importance of regular browser extension audits and being selective about installations.
