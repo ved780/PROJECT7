@@ -1,0 +1,30 @@
+Cybersecurity Internship – Task 7
+Interview Questions & Answers
+
+1. How can browser extensions pose security risks?
+Extensions can request access to sensitive data such as browsing history, passwords, and site content. Malicious ones can steal information, inject ads, track activity, or redirect users to harmful websites.
+
+2. What permissions should raise suspicion?
+- "Read and change all your data on websites you visit"
+- Access to browsing history
+- Permissions unrelated to the extension’s function
+- Background activity without clear purpose
+
+3. How to safely install browser extensions?
+Only use official extension marketplaces, check developer reputation, read recent reviews, verify update history, and avoid installing extensions with unnecessary permissions.
+
+4. What is extension sandboxing?
+Sandboxing limits what an extension can access or do, isolating it from sensitive areas of the browser and operating system to reduce the impact of a security breach.
+
+5. Can extensions steal passwords?
+Yes, if given permission to read website data, they can capture login credentials entered into forms or stored in the browser. This is why reviewing permissions is critical.
+
+6. How to update extensions securely?
+Enable automatic updates from the official store, or manually check for updates. Avoid downloading updates from unofficial sources.
+
+7. Difference between extensions and plugins?
+- Extensions: Lightweight add-ons that modify browser behavior or add features (e.g., ad blockers).
+- Plugins: External software that allows the browser to handle specific content (e.g., Flash Player). Plugins are less common now due to security risks.
+
+8. How to report malicious extensions?
+Report directly through the browser’s official extension store page using the "Report" option, or submit a complaint to the browser vendor’s security team.
